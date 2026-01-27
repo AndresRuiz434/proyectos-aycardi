@@ -1,0 +1,774 @@
+{
+  "info": {
+    "proyecto": ""
+  },
+  "planos": [
+    {
+      "plano": "Plano",
+      "numero": "Número",
+      "version": null,
+      "fecha": null,
+      "contenido": "Contenido",
+      "pdf": "Plano.pdf"
+    },
+    {
+      "plano": "1206-EST-2006-PD-ADM-DES. COL Y MUR",
+      "numero": "2006-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Despieces columnas y muros 1 y 2",
+      "pdf": "1206-EST-2006-PD-ADM-DES. COL Y MUR.pdf"
+    },
+    {
+      "plano": "1206-EST-2007-PD-ADM-DES. MUR",
+      "numero": "2007-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Despieces muros 3, 4 y 5",
+      "pdf": "1206-EST-2007-PD-ADM-DES. MUR.pdf"
+    },
+    {
+      "plano": "1206-EST-2008-PD-ADM-DES. MUR",
+      "numero": "2008-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Despieces muros 6, 7 y  8",
+      "pdf": "1206-EST-2008-PD-ADM-DES. MUR.pdf"
+    },
+    {
+      "plano": "1206-EST-2009-PD-ADM-DES. MUR",
+      "numero": "2009-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Despieces muros 9 y 10",
+      "pdf": "1206-EST-2009-PD-ADM-DES. MUR.pdf"
+    },
+    {
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "numero": "2016-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Despieces vigas 101-112",
+      "pdf": "1206-EST-2016-PD-ADM-P2-D1.pdf"
+    },
+    {
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "numero": "2017-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Despieces vigas113-127",
+      "pdf": "1206-EST-2017-PD-ADM-P2-D2.pdf"
+    },
+    {
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "numero": "2017A",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Despieces vigas 128-141",
+      "pdf": "1206-EST-2017A-PD-ADM-P2-D3.pdf"
+    },
+    {
+      "plano": "1206-EST-2010-PP-ADM-PLANTA DE CIM",
+      "numero": "2010-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Plano de Planta Cimentación ",
+      "pdf": "1206-EST-2010-PP-ADM-PLANTA DE CIM.pdf"
+    },
+    {
+      "plano": "1206-EST-2015-PP-ADM-PLANTA DE P2",
+      "numero": "2015-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Plano de planta Piso 2",
+      "pdf": "1206-EST-2015-PP-ADM-PLANTA DE P2.pdf"
+    },
+    {
+      "plano": "1206-EST-2018-PP-ADM-PLANTA DE P3",
+      "numero": "2018-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Plano de planta Piso 3",
+      "pdf": "1206-EST-2018-PP-ADM-PLANTA DE P3.pdf"
+    },
+    {
+      "plano": "1206-EST-2018A-PP-ADM- PLANTA DE PT",
+      "numero": "2018A",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Plano de planta Piso Tipo",
+      "pdf": "1206-EST-2018A-PP-ADM- PLANTA DE PT.pdf"
+    },
+    {
+      "plano": "1206-EST-2021-PP-ADM-PLANTA DE PISO 6",
+      "numero": "2021-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Plano de planta Piso 6",
+      "pdf": "1206-EST-2021-PP-ADM-PLANTA DE PISO 6.pdf"
+    },
+    {
+      "plano": "1206-EST-2024-PP-ADM-PLANTA DE CUB",
+      "numero": "2024-",
+      "version": 2,
+      "fecha": 45790,
+      "contenido": "Plano de planta Cubierta",
+      "pdf": "1206-EST-2024-PP-ADM-PLANTA DE CUB.pdf"
+    }
+  ],
+  "columnas": [
+    {
+      "id": "ID COLUMNA",
+      "seccion": "Sección",
+      "cantidad": null,
+      "resistencia": null,
+      "plano": "Plano",
+      "volumen": null,
+      "peso": null
+    },
+    {
+      "id": "T1",
+      "seccion": "60X80",
+      "cantidad": 22,
+      "resistencia": 21,
+      "plano": "1206-EST-2006-PD-ADM-DES. COL Y MUR",
+      "volumen": 200,
+      "peso": 1200
+    },
+    {
+      "id": "T2",
+      "seccion": "60X80",
+      "cantidad": 2,
+      "resistencia": 21,
+      "plano": "1206-EST-2006-PD-ADM-DES. COL Y MUR",
+      "volumen": 50,
+      "peso": 500
+    }
+  ],
+  "muros": [
+    {
+      "id": "ID MURO",
+      "espesor": null,
+      "longitud": null,
+      "plano": "Plano",
+      "cantidad": null,
+      "resistencia": null,
+      "volumen": null,
+      "peso": null
+    },
+    {
+      "id": "M1",
+      "espesor": 0.3,
+      "longitud": 8.32,
+      "plano": "1206-EST-2006-PD-ADM-DES. COL Y MUR",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 200,
+      "peso": 1200
+    },
+    {
+      "id": "M10",
+      "espesor": 0.3,
+      "longitud": 2.9,
+      "plano": "1206-EST-2009-PD-ADM-DES. MUR",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 50,
+      "peso": 500
+    },
+    {
+      "id": "M2",
+      "espesor": 0.3,
+      "longitud": 5.23,
+      "plano": "1206-EST-2006-PD-ADM-DES. COL Y MUR",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 99,
+      "peso": 365
+    },
+    {
+      "id": "M3",
+      "espesor": 0.3,
+      "longitud": 6.87,
+      "plano": "1206-EST-2007-PD-ADM-DES. MUR",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 40,
+      "peso": 929
+    },
+    {
+      "id": "M4",
+      "espesor": 0.3,
+      "longitud": 6.88,
+      "plano": "1206-EST-2007-PD-ADM-DES. MUR",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 36,
+      "peso": 750
+    },
+    {
+      "id": "M5",
+      "espesor": 0.3,
+      "longitud": 3.05,
+      "plano": "1206-EST-2007-PD-ADM-DES. MUR",
+      "cantidad": 4,
+      "resistencia": 21,
+      "volumen": 93,
+      "peso": 1323
+    },
+    {
+      "id": "M6",
+      "espesor": 0.3,
+      "longitud": 8.32,
+      "plano": "1206-EST-2008-PD-ADM-DES. MUR",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 24,
+      "peso": 997
+    },
+    {
+      "id": "M7",
+      "espesor": 0.3,
+      "longitud": 8.32,
+      "plano": "1206-EST-2008-PD-ADM-DES. MUR",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 33,
+      "peso": 952
+    },
+    {
+      "id": "M8",
+      "espesor": 0.3,
+      "longitud": 3.38,
+      "plano": "1206-EST-2008-PD-ADM-DES. MUR",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 30,
+      "peso": 613
+    },
+    {
+      "id": "M9",
+      "espesor": 0.3,
+      "longitud": 3.05,
+      "plano": "1206-EST-2009-PD-ADM-DES. MUR",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 53,
+      "peso": 705
+    }
+  ],
+  "vigas": [
+    {
+      "id": "ID VIGA",
+      "piso": "Piso",
+      "seccion": "Sección",
+      "plano": "Plano",
+      "cantidad": null,
+      "resistencia": null,
+      "volumen": null,
+      "peso": null
+    },
+    {
+      "id": "101",
+      "piso": "2",
+      "seccion": "60x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 200,
+      "peso": 1200
+    },
+    {
+      "id": "102",
+      "piso": "2",
+      "seccion": "60x60;80x60;50x60;75x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 50,
+      "peso": 500
+    },
+    {
+      "id": "103",
+      "piso": "2",
+      "seccion": "30x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 74,
+      "peso": 1278
+    },
+    {
+      "id": "104",
+      "piso": "2",
+      "seccion": "30x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 99,
+      "peso": 340
+    },
+    {
+      "id": "105",
+      "piso": "2",
+      "seccion": "40x50;40x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 48,
+      "peso": 1062
+    },
+    {
+      "id": "106",
+      "piso": "2",
+      "seccion": "30x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 36,
+      "peso": 1198
+    },
+    {
+      "id": "107",
+      "piso": "2",
+      "seccion": "60x60;75x60;50x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 32,
+      "peso": 885
+    },
+    {
+      "id": "108",
+      "piso": "2",
+      "seccion": "60x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 83,
+      "peso": 302
+    },
+    {
+      "id": "109",
+      "piso": "2",
+      "seccion": "60x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 100,
+      "peso": 1027
+    },
+    {
+      "id": "110",
+      "piso": "2",
+      "seccion": "60x60;30x60;40x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 28,
+      "peso": 1009
+    },
+    {
+      "id": "111",
+      "piso": "2",
+      "seccion": "30x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 54,
+      "peso": 1398
+    },
+    {
+      "id": "112",
+      "piso": "2",
+      "seccion": "60x60",
+      "plano": "1206-EST-2016-PD-ADM-P2-D1",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 86,
+      "peso": 1411
+    },
+    {
+      "id": "113",
+      "piso": "2",
+      "seccion": "30x60",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 57,
+      "peso": 759
+    },
+    {
+      "id": "114",
+      "piso": "2",
+      "seccion": "60x60",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 21,
+      "peso": 291
+    },
+    {
+      "id": "115",
+      "piso": "2",
+      "seccion": "30x60",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 72,
+      "peso": 214
+    },
+    {
+      "id": "116",
+      "piso": "2",
+      "seccion": "60x60;44x60",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 51,
+      "peso": 1323
+    },
+    {
+      "id": "117",
+      "piso": "2",
+      "seccion": "60x60;75x60",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 82,
+      "peso": 754
+    },
+    {
+      "id": "118",
+      "piso": "2",
+      "seccion": "20x50",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 6,
+      "resistencia": 21,
+      "volumen": 43,
+      "peso": 506
+    },
+    {
+      "id": "119",
+      "piso": "2",
+      "seccion": "20x50",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 80,
+      "peso": 983
+    },
+    {
+      "id": "120",
+      "piso": "2",
+      "seccion": "20x50",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 60,
+      "peso": 540
+    },
+    {
+      "id": "121",
+      "piso": "2",
+      "seccion": "40x50;57x50;20x50",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 80,
+      "peso": 1336
+    },
+    {
+      "id": "122",
+      "piso": "2",
+      "seccion": "20x50",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 32,
+      "peso": 620
+    },
+    {
+      "id": "123",
+      "piso": "2",
+      "seccion": "20x50",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 69,
+      "peso": 1096
+    },
+    {
+      "id": "124",
+      "piso": "2",
+      "seccion": "20x50",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 3,
+      "resistencia": 21,
+      "volumen": 86,
+      "peso": 221
+    },
+    {
+      "id": "125",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 4,
+      "resistencia": 21,
+      "volumen": 45,
+      "peso": 494
+    },
+    {
+      "id": "126",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 46,
+      "peso": 448
+    },
+    {
+      "id": "127",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017-PD-ADM-P2-D2",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 70,
+      "peso": 1468
+    },
+    {
+      "id": "128",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 4,
+      "resistencia": 21,
+      "volumen": 61,
+      "peso": 1344
+    },
+    {
+      "id": "129",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 43,
+      "peso": 513
+    },
+    {
+      "id": "130",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 92,
+      "peso": 839
+    },
+    {
+      "id": "131",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 47,
+      "peso": 1427
+    },
+    {
+      "id": "132",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 25,
+      "peso": 1025
+    },
+    {
+      "id": "133",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 95,
+      "peso": 483
+    },
+    {
+      "id": "134",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 69,
+      "peso": 1262
+    },
+    {
+      "id": "135",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 23,
+      "peso": 1118
+    },
+    {
+      "id": "136",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 2,
+      "resistencia": 21,
+      "volumen": 24,
+      "peso": 502
+    },
+    {
+      "id": "137",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 98,
+      "peso": 306
+    },
+    {
+      "id": "138",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 83,
+      "peso": 1462
+    },
+    {
+      "id": "139",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 45,
+      "peso": 213
+    },
+    {
+      "id": "140",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 80,
+      "peso": 818
+    },
+    {
+      "id": "141",
+      "piso": "2",
+      "seccion": "",
+      "plano": "1206-EST-2017A-PD-ADM-P2-D3",
+      "cantidad": 1,
+      "resistencia": 21,
+      "volumen": 51,
+      "peso": 1168
+    }
+  ],
+  "parametros": [
+    {
+      "caracteristica": "Localización:",
+      "valor": "Lote 1: Calle 22D#127-45, y Lote 2: Calle 22D #125 -79"
+    },
+    {
+      "caracteristica": "Número de pisos elevados:",
+      "valor": "6"
+    },
+    {
+      "caracteristica": "Uso de la edificación:",
+      "valor": "Oficinas"
+    },
+    {
+      "caracteristica": "Placa de Entrepisos:",
+      "valor": "Placa Maciza con Vigas Descolgadas"
+    },
+    {
+      "caracteristica": "Método de Análisis:",
+      "valor": "Análisis Dinámico"
+    },
+    {
+      "caracteristica": "Sistema Estructural:",
+      "valor": "SISTEMA COMBINADO - DMO"
+    },
+    {
+      "caracteristica": "Análisis Sísmico según:",
+      "valor": "NSR-10"
+    },
+    {
+      "caracteristica": "Caracterización Sísmica:",
+      "valor": "LACUSTRE-500"
+    },
+    {
+      "caracteristica": "Grupo de Uso:",
+      "valor": "I"
+    },
+    {
+      "caracteristica": "Coeficiente de Sitio:",
+      "valor": "1"
+    },
+    {
+      "caracteristica": "Estudio de Suelos No.",
+      "valor": "AUS-23542"
+    },
+    {
+      "caracteristica": "De la Firma:",
+      "valor": "Alfonso Uribe S. y Cia. S.A. estudios de suelos"
+    },
+    {
+      "caracteristica": "Tipo de Cimentación:",
+      "valor": "Placa - Pilote "
+    },
+    {
+      "caracteristica": "Director del Proyecto:",
+      "valor": "Roberto Aycardi"
+    },
+    {
+      "caracteristica": "Contacto:",
+      "valor": "3115589669"
+    }
+  ],
+  "materiales": [
+    {
+      "material": "Pilotaje",
+      "resistencia": "210"
+    },
+    {
+      "material": "Cimentación ",
+      "resistencia": "210"
+    },
+    {
+      "material": "Losas y vigas de Piso 2 a Cubierta escaleras",
+      "resistencia": "210"
+    },
+    {
+      "material": "Columnas y muros de cimentacióna cubierta escaleras",
+      "resistencia": "210"
+    },
+    {
+      "material": "Escaleras",
+      "resistencia": "210"
+    },
+    {
+      "material": "Acero",
+      "resistencia": "4200"
+    },
+    {
+      "material": "Mallas electrosoldadas",
+      "resistencia": "4200"
+    }
+  ]
+}
