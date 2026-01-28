@@ -117,7 +117,12 @@ function seleccionarElemento(el) {
     <h3>${el.id}</h3>
     <div class="card-detalle">
       ${Object.keys(campos)
-        .filter(c => el[c] !== undefined)
+        .filter(c => {
+            if (tipo === "vigas" && (c === "peso" || c === "volumen")) {
+                return false;
+            }
+            return el[c] !== undefined;
+        })
         .map(c => `
           <div class="fila">
             <span class="label">${campos[c]}</span>
@@ -131,6 +136,27 @@ function seleccionarElemento(el) {
   renderGrafica();
 }
 
+function agruparVigasPorPiso(vigas) {
+  const resumen = {};
+
+  vigas.forEach(v => {
+    const piso = v.piso || "Sin piso";
+
+    if (!resumen[piso]) {
+      resumen[piso] = {
+        volumen: 0,
+        peso: 0
+      };
+    }
+
+    resumen[piso].volumen += Number(v.volumen) || 0;
+    resumen[piso].peso += Number(v.peso) || 0;
+  });
+
+  return resumen;
+}
+
+
 /* =======================
    GRAFICA
 ======================= */
@@ -141,14 +167,21 @@ function renderGrafica() {
 
   const campo = tipoGrafica.value;
 
+  if (tipo === "vigas") {
+  renderGraficaVigasPorPiso(campo);
+  return;
+    }
+
+
   // SUMA TODO EL PROYECTO
   const totalProyecto =
     [...DATA.columnas, ...DATA.muros, ...DATA.vigas]
       .reduce((s, e) => s + (Number(e[campo]) || 0), 0);
 
   const valorElemento = Number(elementoSeleccionado[campo]) || 0;
-  const resto = totalProyecto - valorElemento;
+  const resto = totalProyecto;
   const nombreElemento = elementoSeleccionado.id;
+  const maxValor = Math.max(valorElemento,totalProyecto);
 
   const ctx = document.getElementById("grafica");
 
@@ -185,8 +218,66 @@ function renderGrafica() {
     },
 
       scales: {
-        y: { beginAtZero: true }
+        y: { beginAtZero: true, suggestedMax: maxValor * 1.15 }
       }
     }
   });
 }
+
+function renderGraficaVigasPorPiso(campo) {
+  const pisoSeleccionado = elementoSeleccionado.piso;
+
+  // 🔹 Suma vigas SOLO del piso seleccionado
+  const sumaPiso = DATA.vigas
+    .filter(v => v.piso === pisoSeleccionado)
+    .reduce((s, v) => s + (Number(v[campo]) || 0), 0);
+
+  // 🔹 Total del proyecto (igual que columnas/muros)
+  const totalProyecto =
+    [...DATA.columnas, ...DATA.muros, ...DATA.vigas]
+      .reduce((s, e) => s + (Number(e[campo]) || 0), 0);
+
+  const restoProyecto = totalProyecto;
+  const maxValor = Math.max(sumaPiso, totalProyecto);
+
+  const ctx = document.getElementById("grafica");
+  if (chart) chart.destroy();
+
+  chart = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: [
+        `Piso ${pisoSeleccionado}`,
+        "Resto del proyecto"
+      ],
+      datasets: [{
+        data: [sumaPiso, restoProyecto],
+        backgroundColor: ["#30ad36", "#9e9e9e"],
+        borderRadius: 8
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        datalabels: {
+          anchor: "end",
+          align: "top",
+          formatter: value => {
+            const unidad = campo === "peso" ? " kg" : " m³";
+            return value.toFixed(1) + unidad;
+          },
+          font: { weight: "bold" }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          suggestedMax: maxValor * 1.15
+        }
+      }
+    }
+  });
+}
+
+
