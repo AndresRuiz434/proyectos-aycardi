@@ -114,6 +114,7 @@ body {
 
     table {
     font-size: 0.9rem;
+    font-size: 13px;
     }
 
     th, td {
@@ -126,7 +127,50 @@ body {
         width: 100%;
         padding: 12px;
     }
+
+    th, td {
+    padding: 4px 8px;
+    vertical-align: middle;
+    }
+
+    .bloque {
+    padding: 14px 18px;
+    }
+
+    /* Tablas más compactas */
+    .tabla-parametros td:first-child,
+    .tabla-materiales td:first-child {
+        width: 55%;
+    }
+
+    .tabla-parametros td:last-child,
+    .tabla-materiales td:last-child {
+        width: 45%;
+        text-align: right;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+    .tabla-contenedor {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
 }
+
+.tabla-materiales th {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.tabla-materiales td {
+  font-size: 13px;
+}
+
+.sin-encabezado thead {
+        display: none;
+    }
 
 .header-seccion {
   display: flex;
@@ -351,7 +395,7 @@ thead {
 }
 
 th, td {
-  padding: 10px 12px;
+  padding: 6px 10px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
@@ -414,3 +458,25 @@ td {
     border-radius: 8px;
 }
 
+@media (min-width: 1024px) {
+
+  table {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td, th {
+    padding: 6px 10px !important;
+    font-size: 13px;
+  }
+
+}
+
+td:first-child {
+  width: 35%;
+}
+
+td:last-child {
+  width: 65%;
+}
