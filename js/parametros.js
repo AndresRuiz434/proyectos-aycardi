@@ -43,7 +43,7 @@ function cargarMateriales(materiales) {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${m.material}</td>
-      <td>${m.resistencia}</td>
+      <td>${m.resistencia} kg/cm²</td>
     `;
     tbody.appendChild(tr);
   });
@@ -59,3 +59,4 @@ function configurarWhatsapp(proyecto) {
 
   btn.href = `https://wa.me/573115589669?text=${mensaje}`;
 }
+
